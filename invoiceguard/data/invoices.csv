@@ -1,0 +1,16 @@
+invoice_no,vendor_name,gstin,invoice_date,amount,email,description
+INV-2026-001,sharma steel traders,19ABCDE1234F1Z5,2026-10-05,"12,450.75",accounts@sharmasteel.in,Steel rods
+INV-2026-002,Bengal Office Supplies,19AAACB5678H1Z2,2026-10-06,49500,billing@bengaloffice.com,Stationery
+INV-2026-003,Mumbai Logistics Pvt Ltd,27AAACM4321L1ZV,2026-10-10,80000,ops@mumbailogistics.in,Freight (Saturday)
+INV-2026-004,Bengal Office Supplies,19AAACB5678H1Z2,2026-10-12,49500,billing@bengaloffice.com,Stationery again
+INV-2026-005,Delhi Tech Services,07AAGFD2194N1Z1,2026-10-13,215300.50,finance@delhitech.co.in,IT consulting
+INV-2026-006,Chennai Cabs,33AAACC5055K1ZG,2026-10-14,8900,not-an-email,Staff travel
+INV-2026-007,Fake Vendor,12345,2026-10-15,15000,x@fakevendor.com,Misc services
+INV-2026-008,Kolkata Caterers,19AAECK7788M1ZP,2026-13-45,7200,orders@kolkatacaterers.in,Event catering
+INV-2026-009,Pune Printers,27AAHCP1122Q1Z9,2026-10-16,-500,sales@puneprinters.in,Credit note?
+INV-2026-001,Sharma Steel Traders,19ABCDE1234F1Z5,2026-10-17,5000.00,accounts@sharmasteel.in,Duplicate number
+BAD-77,Bangalore Cloud,29AABCB9603R1ZX,2026-10-19,30000,billing@blrcloud.in,Hosting
+INV-2026-012,,19AAECK7788M1ZP,2026-10-20,4100,orders@kolkatacaterers.in,Missing vendor
+INV-2026-013,Bangalore Cloud Pvt Ltd,29AABCB9603R1ZX,2026-10-20,125000,billing@blrcloud.in,Annual hosting
+INV-2026-014,Sharma Steel Traders,19ABCDE1234F1Z5,2026-10-21,3499.99,accounts@sharmasteel.in,Bolts
+INV-2026-015,Delhi Tech Services,07AAGFD2194N1Z1,2026-10-24,200000,finance@delhitech.co.in,Consulting (Saturday)

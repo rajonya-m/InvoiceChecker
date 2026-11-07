@@ -1,0 +1,48 @@
+==============================================================
+INVOICEGUARD - VENDOR INVOICE RED-FLAG REPORT
+Generated: 07-Nov-2026 13:48
+==============================================================
+
+1. RUN SUMMARY
+   Rows read      : 15
+   Accepted       : 8
+   Rejected       : 7
+   Total value    : Rs 735,251.24
+
+2. RISK DISTRIBUTION
+   High    : 2
+   Medium  : 3
+   Low     : 3
+
+3. TOP RED FLAGS
+   ROUND_AMOUNT       x3  Suspiciously round amount
+   NEAR_LIMIT         x2  Amount sits just below the approval limit (possible splitting)
+   WEEKEND            x2  Invoice dated on a Saturday or Sunday
+   HIGH_VALUE         x2  Very high value invoice
+   DUPLICATE_BILLING  x1  Same vendor and amount seen earlier (possible double billing)
+
+4. INVOICES NEEDING REVIEW (Medium / High)
+   [High    55] INV-2026-004  Bengal Office Supplies  Rs 49,500.00
+            flags: NEAR_LIMIT, DUPLICATE_BILLING
+   [High    50] INV-2026-015  Delhi Tech Services  Rs 200,000.00
+            flags: ROUND_AMOUNT, WEEKEND, HIGH_VALUE
+   [Medium  25] INV-2026-002  Bengal Office Supplies  Rs 49,500.00
+            flags: NEAR_LIMIT
+   [Medium  25] INV-2026-003  Mumbai Logistics Pvt Ltd  Rs 80,000.00
+            flags: ROUND_AMOUNT, WEEKEND
+   [Medium  25] INV-2026-005  Delhi Tech Services  Rs 215,300.50
+            flags: HIGH_VALUE
+
+5. TOP VENDORS BY SPEND
+   Delhi Tech Services          2 inv  Rs 415,300.50
+   Bangalore Cloud Pvt Ltd      1 inv  Rs 125,000.00
+   Bengal Office Supplies       2 inv  Rs 99,000.00
+
+6. REJECTED ROWS (need correction at source)
+   line  7: invalid email 'not-an-email'
+   line  8: invalid GSTIN '12345'
+   line  9: invalid date '2026-13-45'
+   line 10: amount must be positive, got -500.0
+   line 11: duplicate invoice number INV-2026-001
+   line 12: invalid invoice number 'BAD-77'
+   line 13: vendor name is missing

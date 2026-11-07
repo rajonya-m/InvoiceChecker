@@ -1,0 +1,81 @@
+[
+  {
+    "invoice_no": "INV-2026-004",
+    "vendor_name": "Bengal Office Supplies",
+    "gstin": "19AAACB5678H1Z2",
+    "state": "West Bengal",
+    "invoice_date": "2026-10-12",
+    "amount": 49500.0,
+    "email": "billing@bengaloffice.com",
+    "description": "Stationery again",
+    "flags": [
+      "NEAR_LIMIT",
+      "DUPLICATE_BILLING"
+    ],
+    "risk_score": 55,
+    "risk_level": "High"
+  },
+  {
+    "invoice_no": "INV-2026-015",
+    "vendor_name": "Delhi Tech Services",
+    "gstin": "07AAGFD2194N1Z1",
+    "state": "Delhi",
+    "invoice_date": "2026-10-24",
+    "amount": 200000.0,
+    "email": "finance@delhitech.co.in",
+    "description": "Consulting (Saturday)",
+    "flags": [
+      "ROUND_AMOUNT",
+      "WEEKEND",
+      "HIGH_VALUE"
+    ],
+    "risk_score": 50,
+    "risk_level": "High"
+  },
+  {
+    "invoice_no": "INV-2026-002",
+    "vendor_name": "Bengal Office Supplies",
+    "gstin": "19AAACB5678H1Z2",
+    "state": "West Bengal",
+    "invoice_date": "2026-10-06",
+    "amount": 49500.0,
+    "email": "billing@bengaloffice.com",
+    "description": "Stationery",
+    "flags": [
+      "NEAR_LIMIT"
+    ],
+    "risk_score": 25,
+    "risk_level": "Medium"
+  },
+  {
+    "invoice_no": "INV-2026-003",
+    "vendor_name": "Mumbai Logistics Pvt Ltd",
+    "gstin": "27AAACM4321L1ZV",
+    "state": "Maharashtra",
+    "invoice_date": "2026-10-10",
+    "amount": 80000.0,
+    "email": "ops@mumbailogistics.in",
+    "description": "Freight (Saturday)",
+    "flags": [
+      "ROUND_AMOUNT",
+      "WEEKEND"
+    ],
+    "risk_score": 25,
+    "risk_level": "Medium"
+  },
+  {
+    "invoice_no": "INV-2026-005",
+    "vendor_name": "Delhi Tech Services",
+    "gstin": "07AAGFD2194N1Z1",
+    "state": "Delhi",
+    "invoice_date": "2026-10-13",
+    "amount": 215300.5,
+    "email": "finance@delhitech.co.in",
+    "description": "IT consulting",
+    "flags": [
+      "HIGH_VALUE"
+    ],
+    "risk_score": 25,
+    "risk_level": "Medium"
+  }
+]
